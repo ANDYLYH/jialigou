@@ -1,0 +1,74 @@
+/*公共样式*/
+p{display: inline-block;}
+body,html{min-width: 1190px;}
+html *{font-family:12px/150% Arial,Verdana,"宋体";font-size:12px;color:#444444;}
+a:hover{text-decoration: underline;color: #E91456;}
+/*头部样式*/
+.head{min-width:1190px;padding-bottom: 10px;}
+/*头部导航*/
+.head .head_nav{background: #f7f7f7;border-bottom: 1px solid #e8e8e7;}
+.head_nav_content{height: 36px;line-height: 36px;width: 1190px;margin: 0 auto;}
+.head_nav .tel{height: 28px;line-height: 28px;width: 230px;margin-right: 10px;}
+.head_nav .tel .tel_ico{background: url(img/ind-tel.png) no-repeat left top;width: 48px;height: 18px;line-height:18px;display: inline-block;padding-left: 22px;margin-right: 4px;}
+.head_nav .tel .tel_num{width: 90px;height: 16px;line-height: 16px;font-size: 14px;font-weight: bold;color: #e91456;}
+.login_rigister #login{margin-right: 10px;}
+.head_nav #nav{float: right;padding-top: 4px;overflow: hidden;}
+.head_nav #nav li{float: right;margin-left: 15px;height: 26px;line-height: 26px;}
+.head_nav #nav li#phone{background: url(img/ind-mobile.png) no-repeat left center;padding-left: 22px;}
+/*头部搜索框和购物车*/
+.head_seach{background: #fff;width: 1190px;margin: 0 auto;padding-top: 10px;height: 74px;line-height: 74px;overflow: hidden;}
+._split{font-size: 17px;font-family: "微软雅黑";}
+._split span{display: inline-block;padding: 0 13px;font-size: 22px;color: #c9c9c9;}
+._list{float: right;overflow: hidden;margin-top: 17px;}
+._list li{float: left;width: 130px;height: 40px;line-height: 50px;background: url(img/img_Cart/gray.jpg) no-repeat -1px top;text-align: center;}
+.head_seach #logo{float: left;}
+.head_seach #seach{float: left;margin-left: 219px;height: 32px;line-height: 32px;padding-top: 22px;}
+#seach .seach_content{border: 1px solid #E91456;height: 30px;line-height: 30px;}
+.seach_content #seachtext{width: 325px;height: 30px;line-height: 30px;padding-left: 5px;}
+.seach_content #seachbtn{width: 82px;height: 30px;line-height: 30px;background: #e21357 url(img/search.png) no-repeat 13px center;color: white;font-weight: bold;padding-left: 16px;font-size: 13px;float: right;}
+.seach_content #seachbtn:hover{background-color: #cc1c23;}
+.head_seach .cart{float: right;border: 1px solid #E8E8E7;width: 132px;height: 28px;line-height: 28px;margin: 21px 0 23px;background: url(img/cart.png) no-repeat 10px center;text-align: center;position: relative;padding: 0 10px;}
+.cart{position: relative;}
+.cart a:hover{text-decoration: none;}
+.cart .cart_num{background: url(img/anniu.png) no-repeat left center;display: inline-block;width: 15px;height: 15px;line-height: 15px;text-align: center;color: white;position: absolute;top: 5px;left: 24px;}
+
+/*首页内容content样式*/
+/*导航*/
+.content{overflow: hidden;padding-bottom: 20px;width: 100%;font-family: "微软雅黑" ;background: white;}
+.content1_nav{height: 36px;line-height: 36px;width: 1190px;z-index: 1000;position: relative;margin: 0 auto;}
+/*吸顶菜单*/
+.content1_nav.scroll{position: fixed;top: 0;background: rgba(255,255,255,0.5);width: 100%;}
+.content1_nav .content1_nav_list{display: inline-block;margin-left: 235px;}
+.content1_nav li{display: inline-block; padding: 0 21px;font-weight: bold;}
+.content1_nav li.Liborder{ padding: 0;font-weight: normal;font-size: 12px;color: #ccc;}
+.content1_nav li a{font-size: 17px;color: #444;font-weight: bold;}
+.content1_nav li a:hover{color: rgb(233, 20, 86);text-decoration: none;}
+
+.content1_nav .tel{margin-left: 230px;color: #E91456;}
+.content1_nav .tel .tel_txt {font-weight: bold;color: #000;}
+/*banner*/
+.content1 .banner{border-top: solid 2px #e91455;width: 100%;position: relative;}
+/*页尾样式*/
+.foot{min-width: 1190px;border-top: 2px solid #e91455;background: #fff;}
+.footer{width: 1190px;margin: 0 auto;}
+.foot_info,.help{padding: 10px 0;overflow: hidden;}
+.help_2d{padding: 13px 20px 0 0;width: 123px;float: left;margin-right: 30px;}
+.help_list{width: 700px;padding-left: 20px;border-left: 1px solid #ccc;border-right: 1px solid #ccc;overflow: hidden;float: left;}
+.help_list ul{float: left;width: 100px;padding: 0 20px;}
+.help_list ul li{height: 30px;line-height: 30px;}
+.call{float: right;margin-top: 35px;}
+
+.foot_text{background: #F8F8F8;width: 100%;margin: 0 auto;text-align: center;padding-bottom: 10px;}
+.foot_text p a{height: 35px;line-height: 35px;}
+.foot_text .txt{height: 60px;}
+.foot_text  .txt p{display: block;height: 18px;line-height: 18px;color: #999;}
+
+.rz a{display: inline-block;width: 127px;padding: 0 10px;}
+
+/*子页面折叠导航栏*/
+.nav{position: absolute;width: 190px;top: 0;}
+.nav h2{color: white;background: #e91456;padding-left: 10px;height: 36px;line-height: 36px;font-size: 17px;cursor: pointer;}
+.nav_list{border: 1px solid rgb(201, 201, 201);display: none;background: white;position: relative;top: 2px;}
+.nav_list li{height: 35px;line-height: 35px;}
+.nav_list li a{font-size: 12px;font-weight: normal;}
+.nav_list li a:hover{text-decoration: underline;}

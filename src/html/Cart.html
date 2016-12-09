@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>嘉丽购——购物车</title>
+		<!--引入样式文件-->
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/Cart.css" />
+		<!--引入外部js文件-->
+		<script type="text/javascript" src="../assets/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="../js/Cookie.js" ></script>
+		<script type="text/javascript" src="../js/Cart.js" ></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<div class="head_nav"></div>
+			<div class="head_seach">
+				<a href="../index.html" id="logo"><img title="嘉丽购" alt="嘉丽购" src="../img/ladygood.png"/></a>
+				<p class="_split">
+					<span>|</span>购物车
+				</p>
+				<ul class="_list">
+					<li style="background: url(../css/img/img_Cart/red.jpg) no-repeat -1px top;">我的购物车</li>
+					<li>提交订单</li>
+					<li>等待付款</li>
+					<li>支付成功</li>
+				</ul>
+				
+			</div>
+		</div>
+		<!--主体内容-->
+		<div class="content">
+			<div class="tal">
+				<span style="float: left;">全部商品</span>
+				<span style="float: right;"><a href="../index.html">返回首页</a></span>
+			</div>
+			<div class="cart_contain">
+				<ul class="cart_nav"><!--标题-->
+					<li style="cursor: pointer;width: 252px;" class="all">全选</li>  <!--全选按钮-->
+					<li style="width: 310px;">商品名</li>
+					<li style="width: 152px;">单价（元）</li>
+					<li style="width: 157px;">数量</li>
+					<li style="width: 152px;">嘉丽价</li>	
+					<li style="width: 155px;">操作</li>
+				</ul>
+				<ul class="goods_list">   <!--购物车列表-->
+					<!--<li>
+						<p class="btn">
+							<input type="checkbox" class="check_item" />  <!--选择按钮-->
+							<!--<span></span>
+						</p>
+						<a class="_img" href="detail.html"><img src="../img/img_Cart/14696074251622901200.jpg"/></a>    <!--商品图片-->
+						<!--<p class="goods_title">    <!--商品标题/样式/价格-->
+							<!--<a href="detail.html">达米尼BCD-515WKSD时尚银风冷无霜冰箱</a>
+							<span>货号：<i>20119943</i></span>
+							<span>颜色/尺码 ：</span>
+							<span>达米尼515时尚银风冷无霜对开门冰箱_ 共同共同</span>
+						</p>
+						<span class="price">&yen;<i>2999.00</i></span>
+						<p class="count">   <!--数量加减-->
+							<!--<i class="cut">-</i>
+							<span>1</span>
+							<i class="add">+</i>
+						</p>
+						<span class="jljia">&yen;<i>2999.00</i></span>   <!--优惠价格-->
+						<!--<p class="operate"> <!--操作-->
+							<!--<span>加入收藏夹</span>
+							<span class="del">删除</span>
+						</p>
+						
+					</li>-->
+					<div class="emp" style="height: 100px;text-align: center;line-height: 100px;">购物车还是空的^_^</div>
+				</ul>
+				
+				<div class="account">
+					<label><input type="checkbox" name="check_item" class="all" />全选</label> <!--全选-->
+					<span>删除选中商品</span>    <!--删除-->
+					<span>清空购物车</span>    <!--清空-->
+					<button>去结算</button>   <!--结算-->
+					<p>
+						<span class="total">商品金额:<i>2999.00</i>元</span>   <!--商品总额-->
+						<span>运费：0.00元</span>   <!--运费-->
+						<span>可返积分： 410 *2 = 820</span>  <!--积分-->
+						<span class="_total" style="color: #e91456;font-weight: bold;">总计：<i style="color: #e91456;">2999.00</i>元</span><!--总计-->
+					</p>
+				</div>
+			</div>
+			<div class="like">   <!--猜你喜欢-->
+				<h2>猜你喜欢</h2>
+				<ul class="like_list">
+					<li>
+						<a href="detail.html"><img src="../img/img_Cart/57426a53bd89a.jpg"/></a><!--商品图片-->
+						<p class="G01">(海)水果欧巴龙眼15斤</p><!--商品标题-->
+						<span>&yen;<i>320.00</i></span><!--价格-->
+						<button>加入购物车</button> <!--加入购物车按钮-->
+					</li>
+					<li>
+						<a href="detail.html"><img src="../img/img_Cart/s1_31828.jpg"/></a>
+						<p class="G02">（海）陕西红富士</p>
+						<span>&yen;<i>188.00</i></span>
+						<button>加入购物车</button>
+					</li>
+					<li>
+						<a href="detail.html"><img src="../img/img_Cart/14696074251622901200.jpg"/></a>
+						<p class="G03">达米尼BCD-515WKSD时尚银风冷无霜冰箱</p>
+						<span>&yen;<i>2999.00</i></span>
+						<button>加入购物车</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="foot"></div>
+	</body>
+</html>

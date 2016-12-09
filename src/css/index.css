@@ -1,0 +1,81 @@
+/*轮播banner*/
+.banner .bannerImg{border-top: solid 2px #e91455;height: 480px;position: relative;z-index: 999;cursor: pointer;}
+.banner .bannerImg li{width: 100%;height: 480px;opacity: 0;filter: alpha(opacity=0);position: absolute;}
+/*轮播页面样式*/
+.page{position:absolute;bottom:10px;left:45%;padding:10px;z-index: 9999;}
+.page span{display:inline-block;margin:0 5px;width:20px;height:20px;line-height:20px;background: url(img/img_index/slider.png);text-align:center;border-radius:50%;color: white;cursor: pointer;}
+.page span.active{background: url(img/img_index/orddetailok.png);}
+/*全部商品导航*/
+#content_list{height: 480px;width: 100%;position: absolute;top: 167px;} 
+.content_list1{width: 1190px;margin: 0 auto;}
+.list{background: #3b2c33;width: 190px;height: 516px;position: relative;z-index: 9999;top: -32px;float: left;}
+.list h2{color: white;background: #e91456;padding-left: 10px;height: 36px;line-height: 36px;font-size: 17px;}
+.list_content{padding: 12px 0 12px 10px;}
+.list_content:hover{background: white;}
+.list_content a{color: white;}
+.list_content a.phover{color: #444;}
+.list_content h3{line-height: 30px;height: 30px;font-size: 14px;}
+.list_content span{height: 13px;line-height: 13px;}
+.list_content_list2{position: absolute;z-index: 9999;left: 190px;top: 32px;width: 570px;height: 484px;padding:10px 0 0 10px;background: white;opacity: 0.8;filter: alpha(opacity=80);display: none;}
+.list_content_list2 a{color: #3B2C33;height: 30px;line-height: 30px;}
+.list_content_list2 a.title{font-weight: bold;}
+
+/*直播商品*/
+.list2{background: #fff;width: 190px;height: 480px;position: relative;z-index: 9999;;left: 810px;top: 4px;opacity: 0.9;filter: alpha(opacity=90);overflow: hidden;text-align: center;}
+.list2_tac h2{height: 43px;line-height: 43px;font-size: 16px;color: #e91456;}
+.list2_tac span{height: 13px;line-height: 13px;display: inline-block;margin-bottom: 10px;}
+.list2_tac .product{height: 213px;padding: 14px 0 0 0;width: 190px;}
+.list2_tac .product img{width: 175px;height: 175px;}
+.list2_tac .product a{text-align: left;}
+.list2_tac .product h2{font-weight: normal;font-size: 20px;}
+.list2_tac h2.jiashu{font-size: 16px;height: 43px;line-height: 43px;text-align: left;border-top: 1px solid #E8E8E7;position: absolute;bottom: 25px;left: 18px;}
+
+/*商品展示*/
+.goodslist{width: 1190px;margin: 0 auto;overflow: hidden;}
+.hit,.recommend,.first_floor,.second_floor,.third_floor,.fourth_floor{overflow: hidden;}
+.hot,.rec{width: 190px;float: left;}
+/*今日/昨日热播*/
+.days{padding-left: 10px;}
+.days li{float: left;height: 50px;line-height: 50px;font-size: 18px;width: 85px;cursor: pointer;}
+.days li.active{color: #e91456;}
+/*热播列表*/
+.hot_show{width: 998px;position: relative;margin-top: 50px;float: left;display: none;}
+.hot_list{position: absolute;display: none;width: 100%;}
+.hot_show .active{display: block;}
+.hot_list li{float: left;width: 230px;border: 1px solid #F8F8F8;margin-left:15px ;position: relative;overflow: hidden;}
+.hot_list li:hover{border: 1px solid #E8E8E7;}
+.hot_list img{width: 228px;}
+.hot_list span{color: #e91456;text-align: center;width: 100%;display: inline-block;padding: 5px;height: 23px;line-height: 23px;}
+.hot_list a.alt{display: inline-block;padding: 5px;margin-top: 17px;}
+.hot_list h4{padding-left: 5px;color: #e91456;font-weight: normal;font-size: 14px;height: 25px;line-height: 25px;}
+.hot_list .hot_pro{position: absolute;top: 38px;background: url(img/img_index/miaosha.png) no-repeat center center;width: 30px;height: 36px;line-height: 36px;text-align: center;color: white;}
+.hot_list .prev,.hot_list .next{width: 28px;height: 62px;line-height: 62px;text-align: center;position: absolute;top: 50%;margin-top: -31px;background: #bebebe;font-size: 22px;font-family: simsun;display: none;color: #fff;cursor: pointer;}
+.hot_list .prev{left: 15px;}
+.hot_list .next{right: 11px;}
+
+/*热销推荐*/
+.rec h3{height: 50px;line-height: 50px;font-size: 18px;font-weight: normal;padding-left: 10px;}
+.hot_list h5{color: #e91456;text-align: right;padding: 9px 10px 0 10px;height: 24px;line-height: 24px;font-weight: normal;}
+/*楼层*/
+.flo{width: 190px;float: left;}
+.goodsname{height: 50px;line-height: 50px;padding-left: 34px;background: url(img/img_index/d.png) no-repeat left center;}
+.goodsname a{font-size: 18px;display: inline-block;width: 100px;text-align: center;}
+.goods{width: 175px;padding: 0 5px 10px 10px;background: #fdf4f7;overflow: hidden;}
+.goods li{float: left;height: 40px;line-height: 40px;width: 58px;}
+.container{float: left;overflow: hidden;width: 1000px;}
+.bigImg{display: block;width: 386px;float: left;}
+.goods_list{width: 614px;float: left;overflow: hidden;}
+.goods_list li{width: 165px;border: 1px solid #F8F8F8;padding: 5px;overflow: hidden;margin-left: 16px;float: left;}
+.goods_list li:hover{border: 1px solid #E8E8E7;}
+.show_img img{width: 165px;}
+.img_alt{height: 36px;padding: 5px;display: block;margin-top: 10px;}
+.goods_list h4{font-weight: normal;color: #e91456;font-size: 14px;height: 25px;line-height: 25px;}
+
+/*广告*/
+.ad{margin-top: 15px;}
+
+/*固定条二维码*/
+#qr{bottom:-3px;left:0;z-index:999999;width:100%;position:fixed;}
+#qr span{top:0px;left:10px;color:#ffffff;font-size:30px;display: block;width: 30px;width: 30px;position: absolute;cursor: pointer;}
+#qr img{width: 100%;}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>嘉丽购——登录页面</title>
+		<!--引入外部样式表-->
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/login.css" />
+		<!--引入js文件-->
+		<script type="text/javascript" src="../assets/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="../js/Cookie.js" ></script>
+		<script type="text/javascript" src="../js/login.js" ></script>
+	</head>
+	<!--给body背景色-->
+	<body style="background: #F7F7F7;">
+		<!--头部-->
+		<div class="head" style="margin-top: 10px;margin-bottom: 30px;">
+			<!--网站标志（提示用户目前所在的是登录页面）-->
+			<div class="head_seach" style="padding: 26px 0 10px 0;background: #F7F7F7;">
+				<a href="../index.html" id="logo"><img src="../img/ladygood.png"/></a>
+				<p class="_split">
+					<span>|</span>用户登录
+				</p>
+				<p class="login">
+					|<a href="rigister.html">嘉丽购电视会员激活入口</a>|
+				</p>
+			</div>
+		</div>
+		<!--主体内容-->
+		<div class="content" style="width: 1200px;margin: 0 auto;padding: 0;">
+			<!--banner-->
+			<div class="banner"><img src="../img/img_login/login-bg.jpg" /></div>
+			<!--登录表单-->
+			<div class="right">
+				<form class="login_contain" method="post" action="../index.html">
+					<div class="contain" style="margin: 0;">嘉丽会员登录<a style="display: inline-block;float: right;margin-right: 24px;color: #e91456;" href="rigister.html">免费注册</a></div>
+				<div class="contain" style="margin-top: 0;">
+					<input class="txt" type="text" placeholder="用户名/邮箱/手机号码" />  <!--用户名输入框-->
+					<span class="hint" style="right: 0;">*用户名错误</span>  <!--错误提示-->
+					<div>&times;</div>  <!--删除按钮-->
+				</div>
+				<div class="contain">
+					<input class="txt" type="password"placeholder="密码" />  <!--密码输入框-->
+					<span class="hint" style="right: 0;">*密码错误</span>
+					<div>&times;</div>
+				</div>
+				<div class="contain">
+					<input id="acode" class="txt" type="text" placeholder="验证码" />  <!--验证码输入框-->
+					<div style="right: 145px;">&times;</div>
+					<input type="button" id="change" value="点击获取验证码"></input>   <!--验证码获取框-->
+					<span class="hint">*验证码错误</span>
+				</div>
+				<div class="contain" style="margin: 0;">
+					<input type="checkbox" />自动登录   <!--自动登录按钮-->
+					<a href="#">找回密码</a>   <!--找回密码-->
+				</div>
+				<div class="contain" style="margin-top: 0;">
+					<button type="submit">登录</button>    <!--登录按钮-->
+				</div>
+			</form>
+			<!--其它登录方式-->
+			<p>亲，没有账号，你可以选择以下快捷登录方式！</p>
+			<p style="border: none;height: 16px;line-height: 16px;">
+				<a href="#"><img src="../css/img/img_login/qq.png" style="width: 16px;height: 16px;" />QQ登录</a>
+				<a href="#"><img src="../css/img/img_login/other_way.jpg"/></a>
+			</p>
+			</div>
+			
+		</div>
+		<!--尾部-->
+		<div class="foot" style="margin-top: 20px;"></div>
+	</body>
+</html>

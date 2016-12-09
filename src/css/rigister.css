@@ -1,0 +1,20 @@
+/*切换登录样式*/
+.login{float: right;margin-top: 27px;border: 1px solid #E5007F;height: 30px;line-height: 30px;padding: 0 5px;}
+.login a{color: #e91456;}
+/*表单样式*/
+.login_contain{float: left;width: 435px;height: 337px;}
+.contain{margin: 20px 0;height: 36px;line-height: 36px;padding-left: 40px;position: relative;}
+.contain label{display: inline-block;width: 80px;}
+/*输入框样式*/
+.txt{width: 275px;border: solid 1px #a9a9a9;height: 30px;line-height: 30px;padding-left: 5px;}
+/*删除按钮*/
+.contain div{position: absolute;display: none;width: 36px;height: 36px;font-size: 14px;right: 30px;text-align: center;top: 0;cursor: pointer;}
+/*登录按钮*/
+.contain button{width: 275px;height: 30px;background: #e21357;color: white;}
+.contain button:hover{background: #cc1c23;}
+/*输入框输入错误时的提示*/
+.hint{position: absolute;color: red;display: none;}
+/*用户已注册时的提示*/
+.tip{position: absolute;color: red;font-size: 14px;font-weight: bold;display: none;}
+/*给图片添加浮动*/
+.banner{float: left;}

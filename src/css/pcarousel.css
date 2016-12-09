@@ -1,0 +1,21 @@
+/*购物车样式*/
+.pcarousel{position: relative;overflow:hidden;}
+.pcarousel ul{position: relative;list-style: none;padding:0;margin:0;}
+/*.pcarousel li{overflow:hidden;}*/
+.pcarousel li img{display: block;}
+/*分页按钮*/
+.pcarousel .page{position:absolute;bottom:10px;left:45%;padding:10px;}
+.pcarousel .page span{display:inline-block;margin:0 5px;width:20px;height:20px;line-height:20px;background: url(img/img_index/slider.png);text-align:center;border-radius:50%;color: white;}
+.pcarousel .page span.active{background: url(img/img_index/orddetailok.png);}
+/*左右切换图片按钮*/
+.pcarousel .next,.pcarousel .previous{position:absolute;left:10px;top:50%;margin-top:-30px;width:60px;height:60px;line-height:60px;text-align:center;background: url(../img/btn.gif);opacity:0.5;filter: alpha(opacity=50);}
+.pcarousel .next{background: url(../img/btn.gif) no-repeat left -60px; }
+.pcarousel .next{left:auto;right:10px;}
+.pcarousel .next:hover,.pcarousel .previous:hover{opacity:0.8;filter: alpha(opacity=100);}
+
+/*
+	水平移动样式
+	ul.typex
+ */
+.pcarousel .type-x li{float:left;}
+.pcarousel .type-fade li{position:absolute;top:0;left:0;}

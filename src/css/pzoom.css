@@ -1,0 +1,10 @@
+/*
+ * 放大镜样式
+ * 小图样式
+ * */
+.pzoom{position:relative;}
+/*放大镜*/
+.pzoom .pzoom-min{position:absolute;top:0;left:0;border:1px solid #fc0;background-color:rgba(255,255,0,0.3);}
+/*大图样式*/
+.pzoom-big{position:absolute;overflow:hidden;width:300px;height:300px;}
+.pzoom-big img{position:absolute;left:0;top:0;}

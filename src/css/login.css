@@ -1,0 +1,27 @@
+/*注册会员提示*/
+.login{float: right;color: #c9c9c9;}
+.login a{padding: 0 5px;color: #e91456;}
+/*banner*/
+.banner{float: left;}
+/*登录表单样式*/
+.right{float: right;width: 347px;text-align: center;}
+.login_contain{height: 259px;}
+/*其它登录方式*/
+.right p{border-bottom: 1px solid #E8E8E7;padding-top: 20px;height: 36px;line-height: 36px;width: 100%;}
+.right p a{display: inline-block;height: 16px;line-height: 16px;width: 61px;vertical-align: middle;}
+/*表单主要内容*/
+.contain{margin: 20px 0;height: 36px;line-height: 36px;padding-left: 40px;position: relative;overflow: hidden;text-align: left;}
+.contain label{display: inline-block;width: 80px;}
+/*输入框*/
+.txt{width: 275px;border: solid 1px #a9a9a9;height: 30px;line-height: 30px;padding-left: 5px;}
+/*验证码*/
+#acode{width: 150px;border: solid 1px #a9a9a9;height: 30px;line-height: 30px;padding-left: 5px;float: left;}
+.contain div{position: absolute;display: none;width: 36px;height: 36px;font-size: 14px;right: 30px;text-align: center;top: 0;cursor: pointer;}
+/*提示文本*/
+.hint{position: absolute;color: red;display: none;}
+/*登录按钮*/
+.contain button{width: 275px;height: 30px;background: #e21357;color: white;}
+.contain button:hover{background: #cc1c23;}
+/*更换验证码*/
+#change{width: 95px;height: 32px;float: left;}
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>嘉丽购——注册页面</title>
+		<!--引用样式-->
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/rigister.css" />
+		<!--引入js文件-->
+		<script type="text/javascript" src="../assets/jquery-1.12.0.js" ></script>
+		<script type="text/javascript" src="../js/Cookie.js" ></script>
+		<script type="text/javascript" src="../js/rigister.js" ></script>
+	</head>
+	<body style="background: #eee;">
+		<!--头部html-->
+		<div class="head" style="margin-top: 10px;margin-bottom: 30px;background: #fff;">
+			<div class="head_seach" style="padding: 26px 0 10px 0;">
+				<a href="../index.html" id="logo"><img src="../img/ladygood.png"/></a>
+				<p class="_split">
+					<span>|</span>欢迎注册
+				</p>
+				<p class="login">
+					已有账号
+					<a href="login.html">直接登录</a>
+				</p>
+			</div>
+		</div>
+		<!--正文内容-->
+		<div class="content" style="width: 1200px;margin: 0 auto;">
+			<!--验证表单-->
+			<form method="post" class="login_contain" action="login.html">
+				<div class="contain">
+					<label for="username">*用户名：</label>
+					<input class="txt" name="num" type="text" placeholder="请输入手机号" id="username" />
+					<span class="hint" style="right: -55px;">*手机号不合法</span><!--提示文本-->
+					<span class="tip" style="right: -55px;">&times;用户名已注册！</span>
+					<div>&times;</div>   <!--删除按钮-->
+				</div>
+				<div class="contain">
+					<label for="psw">*设置密码：</label>
+					<input class="txt" id="psw" type="password" placeholder="创建密码" /><span class="hint" style="right: -42px;">*密码不合法</span>
+					<div>&times;</div>
+				</div>
+				<div class="contain">
+					<label for="psw2">*确认密码：</label>
+					<input class="txt" id="psw2" type="password" placeholder="确认密码" /><span class="hint" style="right: -90px;">*两次输入密码不一致</span>
+					<div>&times;</div>
+				</div>
+				<div class="contain" style="padding-left: 125px;">
+					<input type="checkbox" checked="checked" />
+					<a href="#">我已阅读并同意《嘉丽购物网服务条款》</a><span class="hint" style="right: -90px;">*是否同意服务条款？</span>
+					<button type="submit">登录</button>  <!--登录按钮-->
+				</div>
+				<!--跳转页面选择邮箱注册/手机注册-->
+				<div class="contain" style="padding-left: 125px;height: 67px;line-height: 67px;">
+					您还可以选择<a id="email" href="#" style="color: red;">邮箱注册</a>   <!--跳转邮箱/手机注册-->
+				</div>
+			</form>
+			<!--右侧图片-->
+			<div class="banner">
+				<img src="../img/img_rigister/login-bg1.jpg" />
+			</div>
+		
+		</div>
+		<!--尾部-->
+		<div class="foot" style="margin-top: 20px;"></div>
+	</body>
+</html>

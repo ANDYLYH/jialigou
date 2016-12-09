@@ -1,0 +1,82 @@
+/*主体内容*/
+.contain{border-top: 2px solid #e91455;}
+.container{width: 1190px;margin: 0 auto;}
+/*商品所属目录*/
+.lst{height: 50px;line-height: 50px;}
+.lst a,.lst span{padding: 0 10px 0 5px;}
+.lst a:hover{text-decoration: none;color: #444;}
+.biglst{font-weight: 600 !important;font-size: 18px;}
+/*商品主要内容*/
+.product_top{overflow: hidden;}
+.product_img{float: left;}
+/*大图*/
+.bigimg{width: 400px;position: relative;height: 400px;}
+.bigimg li{position: absolute;width: 100%;display: none;}
+.bigimg li img{width: 400px;border: 1px solid #E8E8E7;}
+/*小图*/
+.smallimg{margin-top: 5px;}
+.smallimg img{width: 60px;border: 1px solid #E8E8E7;cursor: pointer;}
+/*分享到*/
+.share{width: 100%;margin-top: 20px;}
+.share a{width: 17px;height: 16px;display: inline-block;}
+/*商品标题及属性*/
+.buy{margin-left: 20px;float: left;width: 740px;position: relative;}
+/*标题*/
+.alt{height: 32px;line-height: 32px;overflow: hidden;width: 100%;}
+.alt em{display: inline-block;width: 58px;height: 20px;line-height: 20px;background: #00b050;color: white;text-align: center;}
+.alt span{width: 76%;font-weight: bold;font-size: 20px;}
+.alt i{float: right;height: 12px;line-height: 12px;}
+/*价格/积分*/
+.sale{margin-top: 10px;background: #eeeeee;}
+.price,.integral{width: 100%;}
+.price span,.integral span,.count span{width: 130px;display: inline-block;padding: 0 25px;height: 40px;line-height: 40px;}
+.price i{font-size: 35px;color: #bf0200;}
+.price i em{font-size: 35px;color: #bf0200;font-weight: normal;}
+.integral i{color: #e91456;}
+/*数量*/
+.count{overflow: hidden;}
+.count span{float: left;}
+.count_num{height: 24px;line-height: 24px;float: left;padding-top: 8px;}
+.count_num i{display:inline-block ;width: 24px;height: 24px;line-height: 24px;text-align:center ;border-radius: 50%;background: #f5f5f5;color: #333;box-sizing:border-box;font-size: 24px;font-weight: bold;float: left;cursor: pointer;}
+.count_num input{width: 47px;height: 24px;border: 1px solid #eee;margin: 0 10px;float: left;}
+/*加入购物车/购买/收藏*/
+.buys_list{margin-top: 196px;}
+.buys_list button{height: 30px;line-height: 30px;border: 1px solid #d0d0d0;background: #f3f3f3;width: 174px;color: #333;font-size: 14px;margin-right: 10px;}
+.buys_list button:hover{background: #e7e7e7;}
+.buys_list .cart_buys{background: #e21357;color: white;}
+.buys_list .cart_buys:hover{background: #cc1c23;}
+.buys_list .sc{width: 54px;}
+/*最佳搭配*/
+.dapei,.viewed{margin-top: 20px;}
+.dapei span{display: inline-block;width: 106px;height: 40px;line-height: 40px;font-size: 14px;background: #eee;text-align: center;}
+.dapei_list{border: 1px solid #eee;overflow: hidden;padding: 20px;}
+.dapei_list li{float: left;margin-left: 30px;width: 188px;border: 1px solid #fff;}
+.dapei_list li:hover{border: 1px solid #eee;}
+.dapei_list li img{width: 188px;}
+.dapei_list li i{display: inline-block;height: 46px;padding: 0 5px;width: 100%;}
+.dapei_list li i:hover{color: #e91456;text-decoration: underline;}
+.dapei_list li em{color: #e91456;padding: 5px;display: inline-block;font-weight: normal;}
+/*最近浏览*/
+.left{float: left;width: 190px;}
+.viewed h2{height: 40px;line-height: 40px;background: #eee;padding-left: 25px;font-size: 14px;font-weight: normal;}
+.viewed li{border: 1px solid #eee;border-top: none;}
+.viewed li img{width: 188px;}
+.viewed li p,.viewed li span{padding: 5px;height: 13px;line-height: 13px;width: 100%;display: inline-block;}
+.viewed li span{color: #e91456;}
+/*商品详情介绍*/
+.right{width: 990px;border: 1px solid #E8E8E7;float: right;margin-top: 20px;}
+/*介绍导航*/
+.info_nav{overflow: hidden;background: #eee;padding: 0 10px;}
+.info_nav li{float: left;width: 194px;text-align: center;height: 40px;line-height: 40px;background: url(img/img_detail/gray.png) no-repeat left top;cursor: pointer;}
+.info_nav li.hover{background: url(img/img_detail/red.png) no-repeat left top;}
+/*介绍内容*/
+.change{padding-top: 20px;background: #F8F8F8;margin: 0 auto;}
+.change li{display: none;margin: 15px;}
+.change li img{display: block;margin: 0 auto;}
+.change .title{background: #eee;height: 40px;line-height: 40px;text-indent: 15px;}
+.change .text_content,.change a{line-height: 26px;}
+.change li textarea{width: 100%;height: 150px;display: block;border: none;}
+/*加入购物车成功弹出框*/
+.tips{position: absolute;top: 50px;left: 50px;border: 2px solid grey;width: 300px;height: 100px;line-height: 100px;text-align: center;background: #fff;display: none;}
+.tips span{position: absolute;right: 10px;top: 10px;font-size: 28px;width: 30px;height: 30px;line-height: 30px;text-align: center;border: solid 2px #054B89;cursor: pointer;}
+.tips p{font-size: 20px;}

@@ -1,0 +1,54 @@
+/*页面主体*/
+.tal{width: 1190px;margin: 0 auto;overflow: hidden;padding: 0 5px;margin-bottom: 10px;margin-top: 20px;}
+.tal span a{color: red;}
+/*购物车*/
+.cart_contain{width: 1190px;margin: 0 auto;border:  1px solid #c9c9c9;}
+/*标题*/
+.cart_nav{background: #eee;border-bottom: 1px solid #c9c9c9;overflow: hidden;padding: 0 5px;}
+.cart_nav li{float: left;height: 40px;line-height: 40px;font-size: 13px;}
+/*购物车列表*/
+.goods_list li{border-bottom: 1px solid #c9c9c9;height: 190px;line-height: 190px;overflow: hidden;font-size: 13px;}
+.goods_list li img{width: 150px;}
+.goods_list p ,.goods_list a,.goods_list span{display: inline-block;float: left;}
+/*选择按钮*/
+.btn{height: 23px;width: 23px;margin: 63px 23px 0 5px;}
+.btn input{position: absolute;height: 23px;width: 23px;z-index: 999;cursor: pointer;opacity: 0;filter: alpha(opacity=0);}
+.btn span{position: absolute;display: inline-block;height: 23px;width: 23px;z-index: 998;background: url(img/img_Cart/check2.png);}
+.btn span.active{background: url(img/img_Cart/checkbox.png);}
+/*商品图片*/
+._img{margin-right: 60px;}
+/*商品标题*/
+.goods_title{width: 310px;padding-top: 15px;}
+.goods_title a,.goods_title span,.operate span{width: 100%;height: 20px;line-height: 20px;}
+.goods_title a{font-weight: bold;}
+/*价格*/
+.price,.jljia{width: 152px;}
+/*数量*/
+.count{width: 157px;}
+.count span,.count i{float: left;width: 24px;height: 24px;line-height: 24px;text-align: center;margin-top: 83px;}
+.count i{display:inline-block ;border-radius: 50%;background: #f5f5f5;color: #333;box-sizing:border-box;font-size: 24px;font-weight: bold;cursor: pointer;}
+/*优惠价格*/
+.jljia{font-weight: bold;}
+/*操作*/
+.operate{margin-top: 55px;}
+.operate span{cursor: pointer;}
+/*结算*/
+.account{height: 130px;padding: 0 10px;background: #eeeeee;}
+.account *{line-height: 30px;margin-right: 10px;cursor: pointer;}
+.account p{float: right;width: 203px;border-right: 1px solid #c9c9c9;}
+.account p span{width: 100%;float: left;}
+/*结算按钮*/
+.account button{float: right;margin: 90px 60px 0 60px;width: 150px;height: 30px;line-height: 30px;background: #e21357;color: white;font-size: 16px;font-family: "微软雅黑" ;}
+.account button:hover{background: #cc1c23;}
+/*猜你喜欢*/
+.like{width: 1190px;margin: 0 auto;}
+.like h2{width: 100%;height: 40px;line-height: 40px;font-size: 14px;font-weight: normal;font-family: '宋体';}
+/*猜你喜欢列表*/
+.like_list{border: 1px solid #E8E8E7;overflow: hidden;}
+.like_list li{float: left;width: 230px;border: 1px solid rgb(255, 255, 255);padding: 10px 0;margin-left: 3px;}
+.like_list li:hover{border: 1px solid rgb(152, 152, 152);}
+.like_list li img{width: 230px;}
+.like_list li p{height: 35px;padding: 5px;width: 100%;}
+.like_list li span{padding: 5px;width: 100%;display: inline-block;font-size: 14px;color: #e91456;}
+.like_list li span i{color: #E91456;}
+.like_list li button{height: 30px;line-height: 30px;width: 100px;text-align: center;margin-left: 65px;border: solid 1px #d0d0d0;background: #f3f3f3;}
